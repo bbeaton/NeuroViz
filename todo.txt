@@ -1,8 +1,7 @@
 BUGS:
 - Sampling rate seems off.  
 	- Only recording 1 piece of data per second!  But raw data is fuctioning properly
-	- rerun original program to see how deep this error goes
-	- look at rewriting the Mindset package (Mindset class connect() and newdata())
+		- problem is in the PDE, not the MindSet package.  Rewrite PDE to sample faster
 
 FEATURES:
 Implement engagement calculations in real time

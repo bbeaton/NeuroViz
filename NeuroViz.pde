@@ -56,7 +56,7 @@ int[] yOffsets = {512,1,1,1,1,1,1,1,1,1};
 
 // yFactors sets the default y-axis scale for each plotVar
 // yFactors can also be adjusted using buttons in the display window
-float[] yFactors = {1f,1/64f,1*8f,1*8f,1f,1f,1f,1f,1f,1f,1f,1f,1f,1f,1f,1f}; 
+float[] yFactors = {1f,1*8f,1*8f,1*8f,1f,1f,1f,1f,1f,1f,1f,1f,1f,1f,1f,1f}; 
 
 // Directory and name of your saved MindSet data. Make sure you 
 // have write privileges to that location.
@@ -262,7 +262,7 @@ void mindSetRawEvent(MindSet ms){
   {
     SaveData();
   }
-  //println(ms.getCurrentRawData());
+  println(ms.data.alpha1);
 }
 
 
