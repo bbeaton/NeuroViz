@@ -65,7 +65,7 @@ float[] yFactors = {1f,1/64f,1*8f,1*8f,1f,1f,1f,1f,1f,1f,1f,1f,1f,1f,1f,1f};
 
 //if OSX
 //String saveDir = "C:\\Users\\Bobby\\My Documents\\Processing\\MindSetBTViewer\\Results\\";
-String saveDir = "C:\\Users\\rbeaton\\Documents\\Processing\\MindSetBTViewer\\Results\\";
+String saveDir = "C:\\Users\\rbeaton\\Documents\\Results\\";
 
 String[] fName = {saveDir, "MindSetData", nf(year(),4), nf(month(),2), nf(day(),2), 
   nf(hour(),2), nf(minute(),2), nf(second(),2), "csv"};
